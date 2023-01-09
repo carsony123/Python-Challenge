@@ -1,3 +1,4 @@
+# Import Modules
 import csv
 import os
 csvpath = os.path.join('Resources', 'election_data.csv')
@@ -28,7 +29,7 @@ whole_number_percentages = {name: int(round(percentage)) for name, percentage in
 # Find the candidate who received the most votes
 winner = max(candidate_votes, key=candidate_votes.get)
 
-# Print the results
+# Print the results in terminal
 print("Total number of votes:", num_votes)
 print("Candidates:", candidate_names)
 print("Votes received by each candidate:", candidate_votes)
@@ -37,6 +38,7 @@ for name, percentage in whole_number_percentages.items():
     print(f"{name}: {percentage}%")
 print("Winner:", winner)
 
+# Prints the results in a text document
 output_path = os.path.join("Analysis",'results.txt')
 with open(output_path, 'w') as f:
     f.write("Total number of votes: " + str(num_votes) + "\n")

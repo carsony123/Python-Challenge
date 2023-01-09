@@ -1,11 +1,11 @@
 Total number of votes: 369710
-Candidates: ['Raymon Anthony Doane', 'Charles Casper Stockham', 'Diana DeGette']
+Candidates: ['Raymon Anthony Doane', 'Diana DeGette', 'Charles Casper Stockham']
 Votes received by each candidate:
 Raymon Anthony Doane: 11606
-Charles Casper Stockham: 85212
 Diana DeGette: 272892
+Charles Casper Stockham: 85212
 Percentage of votes received by each candidate:
 Raymon Anthony Doane: 3%
-Charles Casper Stockham: 23%
 Diana DeGette: 74%
+Charles Casper Stockham: 23%
 Winner: Diana DeGette

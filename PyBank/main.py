@@ -1,3 +1,4 @@
+# Import Modules
 import os
 import csv
 import statistics
@@ -40,13 +41,14 @@ max_month = month_years[profit_losses.index(max_profit)]
 min_profit = min(profit_losses)
 min_month = month_years[profit_losses.index(min_profit)]
 
-# Print the results
+# Prints the results in terminal
 print("Total number of months:", num_months)
 print("Net total of profit/losses:", net_total)
 print("Average change in profit/losses:", average_change)
 print("Greatest increase in profits:", max_month, max_profit)
 print("Greatest decrease in profits:", min_month, min_profit)
 
+# Prints the results in a text document
 output_path = os.path.join("Analysis",'results.txt')
 with open(output_path, 'w') as f:
     f.write("Total number of months: " + str(num_months) + "\n")
